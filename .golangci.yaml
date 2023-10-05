@@ -1,0 +1,81 @@
+---
+output:
+  print-issued-lines: false
+  exclude-use-default: false
+
+#linters-settings:
+  # TODO
+
+linters:
+  # Disable all linters.
+  # Default: false
+  disable-all: true
+  # Enable specific linter
+  # https://golangci-lint.run/usage/linters/#enabled-by-default
+  enable:
+      - errcheck
+      - gosimple
+      - govet
+      - ineffassign
+      - staticcheck
+      - unused
+      - asciicheck
+      - bidichk
+      - bodyclose
+      - containedctx
+      - contextcheck
+      - cyclop
+      - decorder
+      - dupl
+      - dupword
+      - errname
+      - errorlint
+      - execinquery
+      - exhaustive
+      - exportloopref
+      - gocheckcompilerdirectives
+      - gocognit
+      - goconst
+      - gocritic
+      - gocyclo
+      - goerr113
+      - gofmt
+      - gofumpt
+      - gomnd
+      - gomoddirectives
+      - gosec
+      - gosmopolitan
+      - grouper
+      - loggercheck
+      - maintidx
+      - makezero
+      - mirror
+      - musttag
+      - nestif
+      - nilerr
+      - nilnil
+      - nlreturn
+      - noctx
+      - nonamedreturns
+      - nosprintfhostport
+      - paralleltest
+      - prealloc
+      - predeclared
+      - reassign
+      - revive
+      - rowserrcheck
+      - sqlclosecheck
+      - tagalign
+      - tagliatelle
+      - tenv
+      - testableexamples
+      - testpackage
+      - thelper
+      - unconvert
+      - unparam
+      - usestdlibvars
+      - varnamelen
+      - wastedassign
+      - whitespace
+      - wrapcheck
+      - wsl
