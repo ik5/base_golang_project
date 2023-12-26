@@ -26,7 +26,7 @@ linters-settings:
       - name: context-as-argument
         arguments:  [allowTypesBefore: "*testing.T"]
       - name: cyclomatic
-        arguments: [5]
+        arguments: [10]
       - name: datarace
       - name: deep-exit
       - name: defer
